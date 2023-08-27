@@ -13,7 +13,7 @@ import java.util.List;
 /**
  * @author yagote    create 2023/3/7 20:28
  */
-@FeignClient(value = "service-vod")
+@FeignClient(value = "service-vod") //value属性用于指定需要调用的微服务名称
 public interface CourseFeignClient {
 
     @ApiOperation("根据关键字查询课程")

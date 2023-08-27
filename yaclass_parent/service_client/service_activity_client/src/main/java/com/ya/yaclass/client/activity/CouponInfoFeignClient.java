@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 /**
  * @author yagote    create 2023/3/8 17:41
  */
-@FeignClient(value = "service-activity")
+@FeignClient(value = "service-activity")    //value属性用于指定需要调用的服务名
 public interface CouponInfoFeignClient {
 
     @ApiOperation(value = "获取优惠券")

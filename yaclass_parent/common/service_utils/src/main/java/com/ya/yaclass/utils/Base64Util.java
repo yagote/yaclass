@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
 
 public class Base64Util {
     /**
-     * 使用Base64进行加密
+     * 使用1
      * @param content 密文
      * @return
      */

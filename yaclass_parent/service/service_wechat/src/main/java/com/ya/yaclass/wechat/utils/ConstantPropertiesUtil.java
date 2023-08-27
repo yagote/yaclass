@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
  * 常量类，读取配置文件application.properties中的配置
  * @author yagote    create 2023/3/7 19:57
  */
-@Component
+@Component  //表示这是一个Spring管理的Bean，会被自动扫描并注册到Spring容器中进行管理。
 public class ConstantPropertiesUtil implements InitializingBean {
 
     @Value("${wechat.mpAppId}")
